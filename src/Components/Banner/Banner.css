@@ -5,3 +5,19 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.banner-parent{
+    height: 44rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}

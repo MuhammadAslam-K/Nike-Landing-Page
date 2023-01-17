@@ -6,9 +6,7 @@ function Banner() {
   return (
     <div className='banner-parent'>
 
-          <div className='banner-img'
-    style={{backgroundImage:`url(${image})`,
-    backgroundRepeat:"no-repeat"}}></div>
+      <video src='/Videos/video.mp4' autoPlay loop muted />
 
     </div>
   )

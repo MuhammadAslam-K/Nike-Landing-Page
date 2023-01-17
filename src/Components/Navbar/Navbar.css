@@ -20,7 +20,7 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: rgb(26, 24, 24);
   justify-self: start;
   padding-right: 290px;
   margin-left: 20px;
@@ -163,9 +163,25 @@
   border: 1px solid;
   border-radius: 1rem;
   transition: all 0.3s ease-out;
+  text-decoration: none;
 }
 .btn--outline:hover {
   background-color: #fff;
   color: #242424;
   border-radius: 1rem;
+}
+.nav-item1{
+  background-color: transparent;
+  color: #fff;
+  margin-bottom:  1.2rem;
+  border: 1px solid;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+.nav-links1{
+  color: #fff;
+  text-decoration: none;
 }
